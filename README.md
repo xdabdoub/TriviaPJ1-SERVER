@@ -1,6 +1,8 @@
 # Task 3 – UDP Client-Server Trivia Game Using Socket Programming 
 ## Key Points of the Project
-- Operations are predefined protocols that facilitate communication between the server and the client, representing actions such as JOIN, QUIT, MESSAGE, ANSWER, and REQUEST_INPUT. Rather than relying on a continuous while-loop to read the client's input with a Scanner, I decided to implement socket messaging. When the client receives the REQUEST_INPUT protocol, it prompts the user for input, then sends the response back to the server using the ANSWER protocol.## Project Description
+- Operations. are predefined protocols that facilitate communication between the server and the client, representing actions such as JOIN, QUIT, MESSAGE, ANSWER, and REQUEST_INPUT. Rather than relying on a continuous while-loop to read the client's input with a Scanner, I decided to implement socket messaging. When the client receives the REQUEST_INPUT protocol, it prompts the user for input, then sends the response back to the server using the ANSWER protocol.
+
+## Project Description
 In this task, you are required to implement an interactive multiplayer trivia game using UDP 
 socket programming to test players’ (i.e., clients’) knowledge in a fun and competitive 
 environment. The server orchestrates the overall flow of the game, which consists of a series 
